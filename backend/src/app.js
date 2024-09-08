@@ -19,6 +19,9 @@ maria.get('/', (req,res)=>{
     
 })
 
+maria.post('/', (req,res)=>{
+    
+})
 const calculadora = (num1,num2,op) =>{
 
     switch (num1,num2) {
@@ -38,4 +41,6 @@ const calculadora = (num1,num2,op) =>{
 
 maria.listen(PORT,()=>
     console.log(`Servidor corriendo en http://localhost:${PORT}`)
+
+    
 )
